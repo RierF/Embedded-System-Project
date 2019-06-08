@@ -1,0 +1,51 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Loop Antenna symbol,Antenna_Loop,AE1,Antenna_Loop,NFC_Antenna,1,~
+2,single battery cell,Battery_Cell,BT1 BT2,Battery_Cell,Pin_Header_Straight_1x02_Pitch2.54mm,2,~
+3,Unpolarized capacitor,C,C6,"0,01µ",C_0603,1,~
+4,Unpolarized capacitor,C,C4,"0,1µ",C_0603,1,~
+5,Unpolarized capacitor,C,C7 C8 C9 C10 C11 C12,100n,C_0603,6,~
+6,Unpolarized capacitor,C,C13 C14,300p,C_0603,2,~
+7,Unpolarized capacitor,C,C1 C3,"4,7µ",C_0603,2,~
+8,Unpolarized capacitor,C,C2 C5,4.7µ,C_0603,2,~
+9,LED generic,LED,D1 D2,LED,LED_0603,2,~
+10,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J4,Conn_01x02,Pin_Header_Straight_1x02_Pitch2.54mm,1,~
+11,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Female,J1,Conn_01x02_Female,Pin_Header_Straight_1x02_Pitch2.54mm,1,~
+12,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J3,Conn_02x03_Odd_Even,Pin_Header_Straight_2x03_Pitch2.54mm,1,~
+13,USB mini/micro connector,USB_OTG,J2,USB_OTG,USB_Micro-B_Molex-105017-0001,1, ~
+14,Inductor,L,L1,22µ,L_0603,1,~
+15,"Inductor, small symbol",L_Small,L2,L_Small,L_0603,1,~
+16,Resistor,R,R13,"1,43M",R_0603,1,~
+17,Resistor,R,R8,10M,R_0603,1,~
+18,Resistor,R,R17 R18,10k,R_0603,2,~
+19,Resistor,R,R16,180r,R_0603,1,~
+20,Resistor,R,R3,2k,R_0603,1,~
+21,Resistor,R,R20,300k,,1,~
+22,Resistor,R,R14,"4,22M",R_0603,1,~
+23,Resistor,R,R6 R12 R15,"4,42M",R_0603,3,~
+24,Resistor,R,R10,4.02M,R_0603,1,~
+25,Resistor,R,R7,470R,R_0603,1,~
+26,Resistor,R,R9 R11,"5,6M",R_0603,2,~
+27,Resistor,R,R19,"5,6M",,1,~
+28,Resistor,R,R4 R5,50k,R_0603,2,~
+29,Resistor,R,R1 R2,75k,R_0603,2,~
+30,"Rotary encoder, dual channel, incremental quadrate outputs",Rotary_Encoder,SW1,Rotary_Encoder,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,1,~
+31,"Push button switch, generic, two pins",SW_Push,SW2 SW3 SW4,SW_Push,SW_SPST_B3SL-1022P,3,
+32,ACN52832 Module,ACN52832,U4,ACN52832,ACN52832,1,
+33,"It is a digital 3 in 1 sensor with humidity, pressure and temperature measurements, LGA-8",BME280,U3,BME280,Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering,1,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280_DS001-11.pdf
+34,"Energy Harvesting Boost Converter with Battery Management, VQFN-16",BQ25504,U2,BQ25504,QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm,1,http://www.ti.com/lit/ds/symlink/bq25504.pdf
+35,"Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package",MCP73831-2-OT,U1,MCP73831-2-OT,SOT-23-5,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+
+
+
+
+
+Component Groups:,35
+Component Count:,53
+Fitted Components:,53
+Number of PCBs:,1
+Total components:,53
+Schematic Version:,
+Schematic Date:,
+BoM Date:,26/09/2018 10:30:46
+Schematic Source:,D:\ESP\GIT\esp32-esp\Fabian Rier\Hardware\Thermostat\PCBV2_08_18\Thermostat.sch
+KiCad Version:,Eeschema (5.0.0)

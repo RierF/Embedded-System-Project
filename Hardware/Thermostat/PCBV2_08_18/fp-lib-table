@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Footprints)(type KiCad)(uri "D:/ESP/GIT/esp32-esp/Patrick Marchhart/Hardware/Footprints")(options "")(descr ""))
+  (lib (name rotary)(type KiCad)(uri "D:/ESP/GIT/esp32-esp/Fabian Rier/Hardware/rotary.pretty")(options "")(descr ""))
+)
